@@ -16,7 +16,7 @@
             min-height: 100%;
             margin: 0 auto;
             position: relative;
-            background-color: #0000004f;
+            background-color: #657AD3;
             font: normal normal normal 16px/19px Gill Sans MT;
         }
 
@@ -177,13 +177,17 @@
             .links {
                 bottom: 45px;
             }
-
             .or {
                 display:none !important;
             }
         }
 
-        @media screen and (max-width:500px) {
+        @media (max-width:500px) and (min-width:368px) {
+            .right-column a {
+                display: block;
+                padding-left: 0;
+            }
+
             .btn {
                 font-size: 17px;
             }
@@ -202,14 +206,6 @@
 
             .left-column-container {
                 background: none;
-            }
-
-            h1 {
-                padding-bottom:20px;
-            }
-
-            .or {
-                display:inline-block !important;
             }
         }
 
