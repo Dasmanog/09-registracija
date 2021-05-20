@@ -8,8 +8,8 @@ console.log('Labas');
 console.log(suma);
 
 document.addEventListener('DOMContentLoaded', function() {
-
-    if(document.querySelector('#login .or')) {
+if(document.querySe
+    lector('#login .or')) {
         document.querySelector('#login .or').classList.add('login');
     }
 

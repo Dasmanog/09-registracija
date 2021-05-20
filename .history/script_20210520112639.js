@@ -13,9 +13,5 @@ document.addEventListener('DOMContentLoaded', function() {
         document.querySelector('#login .or').classList.add('login');
     }
 
-    if(document.querySelector('#forgot .or')) {
-        document.querySelector('#forgot .or').classList.add('forgot');
-    }
-
     // document.querySelector('#forgot .or').classList.add('forgot');
 });
